@@ -78,4 +78,4 @@ if __name__ == "__main__":
     vectorizer = CountVectorizer(binary = 'true')
     classifier = training_step(training_data, vectorizer)
 
-    print_result(analyse_text(classifier,vectorizer,"This is bad"))
+    print_result(analyse_text(classifier,vectorizer, "This product is good"))
